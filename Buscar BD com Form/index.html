@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <h1>GET</h1>
+    <form action="http://127.0.0.1:3000/api/users" method="get">
+        
+        <input name="nomeInput" type="text" id="nomeInput"/>
+        <input name="passInput" type="text" id="passInput"/>
+        <input type="submit" value="Submit"/>
+    </form>
+    <h1>POST</h1>
+    <form action="http://127.0.0.1:3000/api/users" method="post">
+        <input name="nomeRegisto" type="text" id="nomeInput"/>
+        <input name="passRegisto" type="text" id="passInput"/>
+        <input type="submit" value="Submit"/>
+    </form>
+
+</body>
+</html>
+
+<script>
+
+/*
+    async function getResults(event) {
+
+        let response = await fetch("http://127.0.0.1:3000/api/users")
+        console.log(await response.json())
+        //return await response.json()
+
+        event.preventDefault();
+    }
+*/
+</script>
